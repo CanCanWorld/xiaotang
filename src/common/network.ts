@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const axiosInstance = axios.create({
     baseURL: '/api',
-    timeout: 20000
+    timeout: 15000
 })
 
 export const msgApi = (msg: string) => {
