@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>猫娘小糖</title>
+</head>
+<body>
+<div class="bg"></div>
+<div id="app"></div>
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
+<style>
+    .bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /*filter: blur(1px);*/
+        background: url('src/assets/bg.jpg') center;
+        background-size: cover;
+        z-index: -1;
+    }
+</style>
